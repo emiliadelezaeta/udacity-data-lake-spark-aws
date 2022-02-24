@@ -27,14 +27,10 @@ This project use a single fact table to store measure data *(songplays)* and few
 
 There are few steps to run in order to insert data into the tables.
 
-**etl.ipynb** : exploratory analysis of the data sources, extraction of a sample of the data to build a first version of the ETLs necessary for the ingestion in the data lake and the creation of a output S3 bucket using AWS CLI
+**etl.ipynb** : exploratory analysis of the data sources, extraction of a sample of the data to build a first version of the ETLs necessary for the ingestion in the data lake and the creation of an output S3 bucket using AWS CLI.
 
 **etl.py** : read, transform and load data into the new database using a staging area where the files stored in S3 were COPY into Redshift.
 
-
-## Example Queries
-
-Some queries were executed to test the connection and check if the database is available and running, few examples are in the notebook ```querying_redshift_cluster.ipynb```
 
 ## Hints
 
