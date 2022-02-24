@@ -50,7 +50,7 @@ Doing the project some important point were found and I'd like to share them:
 
 7. Create a S3 bucket with AWS CLI: ```aws s3 mb s3://udacity-datalake-sparkify-edls --region us-west-2```
 
-## FQAs
+## FAQs
 
 **1. Why is Operation timed out on the ssh connection?**
 
