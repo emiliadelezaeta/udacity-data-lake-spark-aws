@@ -73,7 +73,6 @@ aws emr create-cluster --name 'my-cluster-spark' \
 
 Check if the EMR cluster is up and running: ```aws emr list-clusters --active```
 
-
 **3. How do I run ETL.py on Windows 10?**
 
 - Install Putty
